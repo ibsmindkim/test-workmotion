@@ -10,7 +10,7 @@ export default function Footer() {
         <div className='content-footer'>
             <div className="box-footer">
                 <div className="flex-header">
-                    <div>Copyright ©  2022 Klass Bits <br />
+                    <div>Copyright © 2022 Klass Bits <br />
                         All rights reserved.</div>
 
                     <div className="">
