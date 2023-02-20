@@ -22,10 +22,10 @@ export default function Content() {
       <div className='imgpencilforbg1'></div>
       <div className='imgpencilforbg2'></div>
       <div className='imgpencilforbg3'></div>
-      <Container sx={{ flexGrow: 1 }}>
+      <Container>
         <div className="top-banertop">
           <Grid container >
-            <Grid item xs={12}>
+            <Grid item xs={6}>
               <div className="text-head">Klass</div>
               <div style={{ marginTop: "-50px" }} className="text-head">Bils</div>
               <div style={{ marginTop: "-30px" }} className="text-subthai">แพลตฟอร์มจัดการเรียนรู้</div>
@@ -39,7 +39,7 @@ export default function Content() {
               </div>
               <div className="-btn-getstart">GET STARTED</div>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={6}>
               <img src={homeimage} className="img-homeimage" alt="logo" />
             </Grid>
           </Grid>
